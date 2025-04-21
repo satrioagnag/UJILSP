@@ -12,7 +12,7 @@ $allGuestBook = query("SELECT * FROM guestbook ORDER BY idGuest DESC");
 
 <main id="main" class="main">
     <div class="pagetitle ">
-      <h1 class="text" style = "color:#008000">Guest Book</h1>
+      <h1 class="text">Guest Book</h1>
     </div><!-- End Page Title -->
 
     <section class="section">

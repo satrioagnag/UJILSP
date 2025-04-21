@@ -23,7 +23,7 @@ $tanggalFormatted = date("j F Y", $tanggalLahir);
 
     <main id="main" class="main">
         <div class="pagetitle">
-            <h1 class="text" style = "color:#008000">Detail Akun</h1>
+            <h1 class="text" >Detail Akun</h1>
         </div><!-- End Page Title -->
 
         <section class="section">

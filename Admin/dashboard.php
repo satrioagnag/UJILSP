@@ -19,7 +19,7 @@ $totalKeuangan = query("SELECT SUM(totalHarga) FROM transaksi WHERE statusPengir
 
 <style>
   .random-color {
-    background-color: #008000;
+    background-color: var(--text-color);
     color: white; /* Teks akan berwarna putih agar terlihat jelas di atas warna acak */
     text-align: center;
     padding: 10px;
@@ -30,7 +30,7 @@ $totalKeuangan = query("SELECT SUM(totalHarga) FROM transaksi WHERE statusPengir
 <main id="main" class="main">
 
     <div class="pagetitle ">
-      <h1 class="text" style = "color:#008000">Dashboard</h1>
+      <h1 class="text" >Dashboard</h1>
     </div><!-- End Page Title -->
 
     <section class="section dashboard container">

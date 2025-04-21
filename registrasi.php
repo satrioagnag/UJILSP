@@ -64,7 +64,7 @@ if(isset($_POST["submit"])){
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="img/logo1.png" alt="">
-                  <span class="d-none d-lg-block" style = "color:#008000">APOTEK WIN</span>
+                  <span class="d-none d-lg-block" >APOTEK WIN</span>
                 </a>
               </div><!-- End Logo -->
 
@@ -73,7 +73,7 @@ if(isset($_POST["submit"])){
                 <div class="card-body">
 
                   <div class="pt-4 pb-2">
-                    <h5 class="card-title text-center pb-0 fs-4 " style = "color:#008000">Create an Account</h5>
+                    <h5 class="card-title text-center pb-0 fs-4 " >Create an Account</h5>
                     <p class="text-center small">Enter your personal details to create account</p>
                   </div>
 
@@ -149,7 +149,7 @@ if(isset($_POST["submit"])){
                     </div>
 
                     <div class="text-center">
-                      <button type="submit" class="btn " style="background-color: #008000; color: white;"  name="submit">Submit</button>
+                      <button type="submit" class="btn " name="submit">Submit</button>
                       <button type="reset" class="btn btn-secondary">Reset</button>
                     </div>
                     <div class="col-12">

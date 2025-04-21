@@ -73,11 +73,12 @@ if(!isset($_SESSION["login"])){
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="../img/logo.png" alt="">
-        <span class="d-none d-lg-block" style = "color:#008000">APOTEK WIN</span>
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+
+      <a href="dashboard.php" class="logo d-flex align-items-center">
+        <img src="../img/logo1.png" alt="">
+        <span class="d-none d-lg-block">APOTEK WIN</span>
       </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
 
     <nav class="header-nav ms-auto">

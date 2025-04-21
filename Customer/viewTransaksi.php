@@ -14,7 +14,7 @@ $allTransaksi = query("SELECT * FROM transaksi WHERE username = '$username' ORDE
 <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1 class="text"  style = "color : #008000">Laporan Transaksi</h1>
+      <h1 class="text"  >Laporan Transaksi</h1>
 </div><!-- End Page Title -->
 
 <section class="section">

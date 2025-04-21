@@ -36,7 +36,7 @@ $tanggalFormatted = date("j F Y", $tanggalTransaksi);
                             <center>
                                 <img src="../img/logo1.png" width="60px" class="mb-1">
                                 <div class="col-md-10">
-                                    <h2 class="mb-1"><strong class="text" style = "color:#008000">APOTEK WIN</strong></h2>
+                                    <h2 class="mb-1"><strong class="text" >APOTEK WIN</strong></h2>
                                     <h4 class="mb-2">Laporan Belanja <?= $detailTransaksi["username"]; ?></h4>
                                 </div>
                             </center>

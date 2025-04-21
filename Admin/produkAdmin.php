@@ -13,7 +13,7 @@ $allProduk = query("SELECT * FROM produk");
 <main id="main" class="main">
 
     <div class="pagetitle ">
-      <h1 class="text" style = "color:#008000">Produk</h1>
+      <h1 class="text">Produk</h1>
     </div><!-- End Page Title -->
 
     <section class="section">

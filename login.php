@@ -95,7 +95,7 @@ if(isset($_SESSION["login"])){
               <div class="d-flex justify-content-center py-4">
                 <a href="login.php" class="logo d-flex align-items-center w-auto">
                   <img src="img/logo1.png" alt="">
-                  <span class="d-none d-lg-block" style = "color:#88C273">APOTEK WIN</span>
+                  <span class="d-none d-lg-block" >APOTEK WIN</span>
                 </a>
               </div><!-- End Logo -->
 
@@ -131,7 +131,7 @@ if(isset($_SESSION["login"])){
                     <?php endif; ?>
 
                     <div class="col-12">
-                      <button class="btn w-100" style="background-color: #008000; color: white;" type="submit" name="login">Login</button>
+                      <button class="btn w-100" style="background-color: #2c3e50; color: white;" type="submit" name="login">Login</button>
                     </div>
                     <div class="col-12">
                       <p class="small mb-0">Don't have account? <a href="registrasi.php">Create an account</a></p>

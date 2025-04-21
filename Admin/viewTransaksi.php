@@ -13,7 +13,7 @@ $allTransaksi = query("SELECT * FROM transaksi ORDER BY idTransaksi DESC");
 <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1 class="text"style = "color:#008000">Data Transaksi</h1>
+      <h1 class="text">Data Transaksi</h1>
     </div><!-- End Page Title -->
 
 <section class="section">

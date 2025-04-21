@@ -60,7 +60,7 @@ if(isset($_POST["kirim"])){
 <body>
     <div class="card pt-3">
         <div class="card-body">
-          <h2 class="card-title text-center" style = "color:#008000">Guest Book</h2>
+          <h2 class="card-title text-center" >Guest Book</h2>
 
             <!-- Vertical Form -->
             <form class="row g-3" method="POST">
