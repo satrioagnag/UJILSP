@@ -62,7 +62,7 @@ if(!isset($_SESSION["login"]) && $checkLogin > 0){
 
       <a href="produkCust.php" class="logo d-flex align-items-center">
         <img src="../img/logo1.png" alt="">
-        <span class="d-none d-lg-block" >APOTEK WIN</span>
+        <span class="d-none d-lg-block" >APOTEK BARENG WARGA</span>
       </a>
     </div><!-- End Logo -->
 

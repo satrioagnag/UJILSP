@@ -34,7 +34,7 @@ $kategori = array(
 <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1 class="text" >Semua Produk APOTEK WIN</h1>
+      <h1 class="text" >Semua Produk APOTEK BARENG WARGA</h1>
 </div><!-- End Page Title -->
 
 <!-- live dropdown with jquery for filter kategoriProduk -->
