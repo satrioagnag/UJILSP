@@ -6,6 +6,7 @@ require 'custControl.php';
 require 'template/headerCust.php';
 require 'template/sidebarCust.php';
 
+
 $idTransaksi = $_GET["id"];
 $username = $_SESSION["username"];
 
@@ -141,6 +142,10 @@ if(isset($_POST["submit"])) {
                     <a href="viewTransaksi.php" style="text-decoration: none;">
                         <button id="kembali" class="btn btn-warning mx-2">Kembali</button>
                     </a>
+                    <form action="../assets/sendMail.php?id=<?= $detailTransaksi["idTransaksi"]; ?>" method="post" style="display:inline;">
+                        <input type="hidden" name="send_email" value="1">
+                        <button type="submit" class="btn btn-success mx-2">Kirim Email</button>
+                    </form>
                 </div>
 
             </div>
