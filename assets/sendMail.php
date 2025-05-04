@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["send_email"])) {
             <p>Halo {$detailTransaksi['namaLengkap']},</p>
             <p>Terima kasih telah berbelanja di Apotek Bareng Warga.</p>
             <p>Untuk melihat dan mencetak struk transaksi Anda, silakan klik tombol di bawah ini:</p>
-            <a href='https://localhost/APOTEKWIN//Customer/detailTransaksi.php?id={$idTransaksi}' style='padding: 10px; background-color: #28a745; color: white; text-decoration: none;'>Lihat Struk</a>
+            <a href='https://localhost/APTKBARENGWRGA/Customer/detailTransaksi.php?id={$idTransaksi}' style='padding: 10px; background-color: #28a745; color: white; text-decoration: none;'>Lihat Struk</a>
             <p>Salam sehat,<br>Tim Apotek</p>
         ";
         $mail->AltBody = "Halo {$detailTransaksi['namaLengkap']},\nTerima kasih telah berbelanja.\nDetail transaksi ID: {$idTransaksi}.";
